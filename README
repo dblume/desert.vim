@@ -1,13 +1,17 @@
-I started with the evening colorscheme included in the distro, and tweaked a
-few colors to my liking.  Then I decided to do a major overhaul and give the
-whole thing a desert evening sort of feel.  I find it a very pleasing,
-easy-on-the-eyes theme.
+# desert.vim
 
-Screenshot: http://hans.fugal.net/vim/colors/desert.html
+This is forked from https://github.com/fugalh/desert.vim
 
-Get the latest version at https://github.com/fugalh/desert.vim
+The only change I needed to make was to change the diff colors. The original
+settings sometime had text match background for vimdiff'ing shell scripts.
+
+## Instructions
+
 Put in ~/.vim/colors or (<your-vim-dir>\vimfiles\colors on Windows) and do
-:colorscheme desert
+`:colorscheme desert` in vim to use.
 
-I mostly don't maintain this anymore. Occasionally someone has a tweak
-suggestion - I recommend forking this and sending a pull request, or not.
+You can download it from the command line like so:
+
+    $ curl -LSso ~/.vim/colors/desert.vim \
+      https://raw.githubusercontent.com/dblume/desert.vim/master/desert.vim
+

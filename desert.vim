@@ -1,9 +1,9 @@
 " Vim color file
 " Maintainer:	Hans Fugal <hans@fugal.net>
-" Last Change:	$Date: 2003/07/24 00:57:11 $
-" Last Change:	$Date: 2003/07/24 00:57:11 $
+" Last Change:	$Date: 2004/06/13 19:30:30 $
+" Last Change:	$Date: 2004/06/13 19:30:30 $
 " URL:		http://hans.fugal.net/vim/colors/desert.vim
-" Version:	$Id: desert.vim,v 1.7 2003/07/24 00:57:11 fugalh Exp $
+" Version:	$Id: desert.vim,v 1.1 2004/06/13 19:30:30 vimboss Exp $
 
 " cool help screens
 " :he group-name
@@ -24,7 +24,7 @@ let g:colors_name="desert"
 hi Normal	guifg=White guibg=grey20
 
 " highlight groups
-hi Cursor	guibg=indianred guifg=khaki
+hi Cursor	guibg=khaki guifg=slategrey
 "hi CursorIM
 "hi Directory
 "hi DiffAdd
@@ -41,7 +41,7 @@ hi ModeMsg	guifg=goldenrod
 hi MoreMsg	guifg=SeaGreen
 hi NonText	guifg=LightBlue guibg=grey30
 hi Question	guifg=springgreen
-hi Search	guibg=grey30 guifg=#dfffdf
+hi Search	guibg=peru guifg=wheat
 hi SpecialKey	guifg=yellowgreen
 hi StatusLine	guibg=#c2bfa5 guifg=black gui=none
 hi StatusLineNC	guibg=#c2bfa5 guifg=grey50 gui=none
@@ -53,7 +53,6 @@ hi WarningMsg	guifg=salmon
 "hi Menu
 "hi Scrollbar
 "hi Tooltip
-hi MatchParen guibg=grey30 guifg=#dfffdf
 
 " syntax highlighting groups
 hi Comment	guifg=SkyBlue
@@ -89,17 +88,16 @@ hi WarningMsg	ctermfg=1
 hi WildMenu	ctermfg=0 ctermbg=3
 hi Folded	ctermfg=darkgrey ctermbg=NONE
 hi FoldColumn	ctermfg=darkgrey ctermbg=NONE
-hi DiffAdd	ctermbg=4
-hi DiffChange	ctermbg=5
-hi DiffDelete	cterm=bold ctermfg=4 ctermbg=6
-hi DiffText	cterm=bold ctermbg=1
+hi DiffAdd      term=reverse ctermbg=green ctermfg=white 
+hi DiffChange   term=reverse ctermbg=cyan ctermfg=black 
+hi DiffText     term=reverse ctermbg=gray ctermfg=black 
+hi DiffDelete   term=reverse ctermbg=red ctermfg=black 
 hi Comment	ctermfg=darkcyan
 hi Constant	ctermfg=brown
 hi Special	ctermfg=5
 hi Identifier	ctermfg=6
 hi Statement	ctermfg=3
 hi PreProc	ctermfg=5
-hi Todo		ctermfg=red ctermbg=NONE
 hi Type		ctermfg=2
 hi Underlined	cterm=underline ctermfg=5
 hi Ignore	cterm=bold ctermfg=7
