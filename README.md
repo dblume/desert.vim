@@ -3,7 +3,9 @@
 This is forked from https://github.com/fugalh/desert.vim
 
 The only change I needed to make was to change the diff colors. The original
-settings sometime had text match background for vimdiff'ing shell scripts.
+settings sometimes had text match its background when vimdiff'ing shell scripts.
+
+![vimdiff example](https://raw.githubusercontent.com/dblume/desert.vim/master/vimdiff-desert.png)
 
 ## Instructions
 

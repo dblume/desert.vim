@@ -88,7 +88,7 @@ hi WarningMsg	ctermfg=1
 hi WildMenu	ctermfg=0 ctermbg=3
 hi Folded	ctermfg=darkgrey ctermbg=NONE
 hi FoldColumn	ctermfg=darkgrey ctermbg=NONE
-hi DiffAdd      term=reverse ctermbg=green ctermfg=white 
+hi DiffAdd      term=reverse ctermbg=darkgreen ctermfg=white 
 hi DiffChange   term=reverse ctermbg=cyan ctermfg=black 
 hi DiffText     term=reverse ctermbg=gray ctermfg=black 
 hi DiffDelete   term=reverse ctermbg=red ctermfg=black 
