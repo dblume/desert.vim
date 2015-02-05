@@ -5,6 +5,9 @@ This is forked from https://github.com/fugalh/desert.vim
 The only change I needed to make was to change the diff colors. The original
 settings sometimes had text match its background when vimdiff'ing shell scripts.
 
+In the picture below, the top screenshot is the "before" image, and the bottom
+one is the "after" image.
+
 ![vimdiff example](https://raw.githubusercontent.com/dblume/desert.vim/master/vimdiff-desert.png)
 
 ## Instructions
