@@ -90,7 +90,7 @@ hi Folded	ctermfg=darkgrey ctermbg=NONE
 hi FoldColumn	ctermfg=darkgrey ctermbg=NONE
 hi DiffAdd      term=reverse ctermbg=darkgreen ctermfg=white
 hi DiffChange   term=reverse ctermbg=darkcyan ctermfg=black
-hi DiffText     term=reverse ctermbg=gray ctermfg=black
+hi DiffText     term=reverse ctermbg=cyan ctermfg=black
 hi DiffDelete   term=reverse ctermbg=darkred ctermfg=black
 hi Comment	ctermfg=darkcyan
 hi Constant	ctermfg=brown
